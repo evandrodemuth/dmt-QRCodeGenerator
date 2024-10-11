@@ -19,7 +19,7 @@ def generate_qr_code(data):
     return img.convert('RGB')
 
 # Configurar o aplicativo Streamlit
-st.title("Gerador de QR Code com Streamlit")
+st.title("Gerador de QR Code")
 
 # Entrada de dados pelo usuário
 data = st.text_input("Insira o texto ou URL para gerar o QR Code:")
